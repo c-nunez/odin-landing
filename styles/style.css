@@ -83,15 +83,33 @@ button a {
   border-radius: 3px;
 }
 
-.feature #title {
-  padding-top: 20px;
-}
-
-.feature div h3 {
+#title {
+  padding-top: 50px;
   font-size: 36px;
   font-weight: 900;
   color: #1f2937;
   text-align: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.center {
+  justify-content: center;
+}
+
+.gap-5 {
+  margin: 5px;
+}
+
+.border-1 {
+  border-style: solid;
+  border-width: 5px;
+  border-color: #3882f6;
+  border-radius: 10px;
+  width: 200px;
+  height: 200px;
 }
 
 .quote {
