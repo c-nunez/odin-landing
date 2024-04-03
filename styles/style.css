@@ -64,7 +64,7 @@ a {
   margin-bottom: 1rem;
 }
 
-button {
+.btn-prim {
   background-color: #3882f6;
   padding: 15px 20px;
   border: none;
@@ -161,10 +161,22 @@ button a {
 }
 
 #cta-button {
-  height: 2rem;
+  height: 40px;
+  width: 125px;
+  border-width: 2px;
+  border-style: solid;
+  background-color: #3882f6;
+  border-radius: 10px;
+  border-width: 2px;
+  border-color: #e5e7eb;
+  font-size: large;
+  font-weight: bold;
 }
 
 footer {
-  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
   color: #f9faf8;
 }
