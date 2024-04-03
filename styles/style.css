@@ -113,13 +113,55 @@ button a {
 }
 
 .quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 450px;
   background-color: #e5e7eb;
 }
 
+.quote #quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1f2937;
+  padding-bottom: 0%;
+  margin-bottom: 0%;
+}
+
+.quote #author {
+  text-align: end;
+  font-weight: bold;
+  font-size: 36px;
+  padding-top: 0%;
+  margin-top: 0%;
+}
+
 .cta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 250px;
   background-color: #fff;
+}
+
+#blue-square {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3882f6;
+  color: #e5e7eb;
+  border-radius: 10px;
+  width: 60rem;
+  height: 9rem;
+}
+
+#blue-square div {
+  display: flex;
+}
+
+#cta-button {
+  height: 2rem;
 }
 
 footer {
